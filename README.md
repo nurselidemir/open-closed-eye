@@ -31,11 +31,14 @@ Make sure you're in the project directory, then install the required Python pack
 
 ```bash
 pip install opencv-python scikit-learn scikit-image numpy joblib
+```
 
 The pre-trained model (logistic_regression_model.pkl) is already included in the project. You can directly start the real-time detection by running:
+```bash
    python camera.py
+```
 
 The system will access your webcam, detect eyes in real time, and display whether they are open or closed on the screen.
  Press q to quit the application.
 
- If the webcam doesn’t start, try changing cv2.VideoCapture(1) to cv2.VideoCapture(0) in camera.py.
+If the webcam doesn’t start, try changing cv2.VideoCapture(1) to cv2.VideoCapture(0) in camera.py.
