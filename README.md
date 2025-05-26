@@ -41,4 +41,4 @@ The pre-trained model (logistic_regression_model.pkl) is already included in the
 The system will access your webcam, detect eyes in real time, and display whether they are open or closed on the screen.
  Press q to quit the application.
 
-If the webcam doesn’t start, try changing cv2.VideoCapture(1) to cv2.VideoCapture(0) in camera.py.
+Note : If the webcam doesn’t start, try changing cv2.VideoCapture(1) to cv2.VideoCapture(0) in camera.py.
